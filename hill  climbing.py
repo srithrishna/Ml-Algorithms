@@ -72,6 +72,8 @@ def main():
 if __name__ == "__main__":
     main()
     
+#another method by importing module 
+
 import numpy as np
 from python_tsp.exact import solve_tsp_dynamic_programming
 distance_matrix=np.array([[0,400,500,300],[400,0,300,500],[500,300,0,400],[300,500,400,0]])
